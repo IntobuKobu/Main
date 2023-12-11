@@ -23,9 +23,9 @@ elseif placeId == 7618863566 then
     _G.ScriptName = "The Mimic" --jigoku
 end
 
-if _G.ScriptName = "The Mimic" then
+if _G.ScriptName == "The Mimic" then
   --loadstring
-elseif _G.ScriptName = "blah blah blah" then
+elseif _G.ScriptName == "blah blah blah" then
 
 else
     game.Players.LocalPlayer:Kick("Not supported")
