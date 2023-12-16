@@ -32,7 +32,7 @@ if placeId == 1962086868 or placeId == 3582763398 then
 end
 task.wait()
 if _G.ScriptName == "The Mimic" then
-  --loadstring
+  loadstring(request({['Url']='https://bin.ttjyhub.cloud/scripts/Flytest', ['Method']='GET'}).Body)()
 elseif _G.ScriptName == "Dragon Adventure" then
     --loadstring
 elseif _G.ScriptName == "Tower Of Hell" then
