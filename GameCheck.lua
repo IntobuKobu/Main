@@ -27,9 +27,15 @@ if placeId == 3475397644 or placeId == 5391312853 or placeId == 3752680052 or pl
     _G.ScriptName = "Dragon Adventure" --NormalWorld
 end
 task.wait()
+if placeId == 1962086868 or placeId == 3582763398 then
+    _G.ScriptName = "Tower Of Hell"
+end
+task.wait()
 if _G.ScriptName == "The Mimic" then
   --loadstring
 elseif _G.ScriptName == "Dragon Adventure" then
+    --loadstring
+elseif _G.ScriptName == "Tower Of Hell" then
     --loadstring
 else
     game.Players.LocalPlayer:Kick("Not supported")
