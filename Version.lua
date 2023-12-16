@@ -4,4 +4,5 @@ _G.Version = {
     ["Blox Fruit"] = "UPV1D",
     ["Pet Simulator 99"] = "UPV1D",
     ["Weird Stitch Dad"] = "UPV1D",
+    ["Tower Of Hell"] = "UPV1D",
 }
